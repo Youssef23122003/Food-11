@@ -69,8 +69,8 @@ const Testimonial = () => {
             </Helmet>
         </div>
     <header style={{
-        backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
-      }} className='flexh-[55vh] bg-cover bg-center flex-col items-center justify-center'>
+            backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
+          }} className='flex h-[55vh] bg-cover bg-center flex-col items-center justify-center'>
        <h1 data-aos="fade-down" className='text-6xl font-bold text-white'>Testimonials</h1>
        <p className='text-white mt-4'><span className='text-yellow-500'>Home / </span><span className='text-yellow-500'>Pages / </span>Testimonial</p>
     </header>
