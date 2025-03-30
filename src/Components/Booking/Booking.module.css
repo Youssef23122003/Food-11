@@ -1,0 +1,11 @@
+header{
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../../assets/bg-hero.jpg);
+  height: 55vh;
+  background-size: cover;
+}
+
+h1{
+  font-family: "Nunito", sans-serif;
+}
+
+
