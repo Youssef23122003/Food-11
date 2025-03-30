@@ -6,6 +6,7 @@ import img5 from "../../assets/about-4.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import img22 from '../../assets/bg-hero.jpg'
+import { Helmet } from 'react-helmet';
 
 
 const Counter = ({ target }) => {
@@ -63,6 +64,11 @@ const About = () => {
       }, []);
   return (
     <>
+     <div className="application">
+                <Helmet>  
+                    <title>About</title>
+                </Helmet>
+            </div>
     <header style={{
                    backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
                  }} className='flex h-[55vh] bg-cover bg-center flex-col items-center justify-center'>
