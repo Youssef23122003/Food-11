@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
-
+import img22 from '../../assets/bg-hero.jpg'
 
 const Service = () => {
    useEffect(() => {
@@ -15,7 +15,9 @@ const Service = () => {
                 <title>Services</title>
             </Helmet>
         </div>
-       <header className='flex flex-col items-center justify-center'>
+       <header style={{
+               backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
+             }} className='flex h-[55vh] bg-cover bg-center flex-col items-center justify-center'>
        <h1 data-aos="fade-down" className='text-6xl font-bold text-white'>Services</h1>
        <p className='text-white mt-4'><span className='text-yellow-500'>Home / </span><span className='text-yellow-500'>Pages / </span>Service</p>
     </header>

@@ -13,6 +13,7 @@ import food6 from "../../assets/menu-6.jpg";
 import food7 from "../../assets/menu-7.jpg";
 import food8 from "../../assets/menu-8.jpg";
 import { Helmet } from 'react-helmet';
+import img22 from '../../assets/bg-hero.jpg'
 
 
 
@@ -72,7 +73,9 @@ const Menu = () => {
                 <title>Food Menu</title>
             </Helmet>
         </div>
-       <header className='flex flex-col items-center justify-center'>
+       <header style={{
+               backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
+             }} className='flex h-[55vh] bg-cover bg-center flex-col items-center justify-center'>
        <h1 data-aos="fade-down" className='text-6xl font-bold text-white'>Food Menu</h1>
        <p className='text-white mt-4'><span className='text-yellow-500'>Home / </span><span className='text-yellow-500'>Pages / </span>Menu</p>
     </header>

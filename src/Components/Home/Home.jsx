@@ -184,7 +184,9 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
         </div>
-  <header style={{ height: "100vh" , backgroundImage: `url(${img22})` }} id="home-page" className='flex overflow-hidden h-screen items-center mt-10 sm:mt-12 md:mt-16'>
+  <header style={{
+          backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
+        }} id="home-page" className='flex overflow-hidden bg-cover bg-center h-screen items-center mt-10 sm:mt-12 md:mt-16'>
     <div className='w-[95%] sm:w-[90%] mx-auto'>
       <div className="flex flex-col-reverse lg:flex-row items-center">
         <div className='w-full lg:w-1/2 mt-8 lg:mt-0 text-center lg:text-left px-4 sm:px-0'>

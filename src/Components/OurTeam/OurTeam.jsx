@@ -6,7 +6,7 @@ import chef4 from "../../assets/team-4.jpg"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet'
-
+import img22 from '../../assets/bg-hero.jpg'
 
 const OurTeam = () => {
    useEffect(() => {
@@ -19,7 +19,9 @@ const OurTeam = () => {
                 <title>Our Team</title>
             </Helmet>
         </div>
-    <header className='flex flex-col items-center justify-center'>
+    <header style={{
+        backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${img22})`,
+      }} className='flex bg-cover bg-center flex-col items-center justify-center'>
        <h1 data-aos="fade-down" className='text-6xl font-bold text-white'>Our Team</h1>
        <p className='text-white mt-4'><span className='text-yellow-500'>Home / </span><span className='text-yellow-500'>Pages / </span>Team</p>
     </header>
