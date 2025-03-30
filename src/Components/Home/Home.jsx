@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "./Home.module.css";
 import { NavLink } from "react-router-dom";
 import { motion,AnimatePresence } from "framer-motion";
+import img22 from "../../assets/bg-hero.jpg"
 import img1 from "../../assets/hero.png";
 import img2 from "../../assets/about-1.jpg";
 import img3 from "../../assets/about-2.jpg";
@@ -183,7 +184,7 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
         </div>
-  <header style={{ height: "100vh" }} id="home-page" className='flex overflow-hidden h-screen items-center mt-10 sm:mt-12 md:mt-16'>
+  <header style={{ height: "100vh" , backgroundImage: `url(${img22})` }} id="home-page" className='flex overflow-hidden h-screen items-center mt-10 sm:mt-12 md:mt-16'>
     <div className='w-[95%] sm:w-[90%] mx-auto'>
       <div className="flex flex-col-reverse lg:flex-row items-center">
         <div className='w-full lg:w-1/2 mt-8 lg:mt-0 text-center lg:text-left px-4 sm:px-0'>
